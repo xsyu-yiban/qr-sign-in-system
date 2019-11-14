@@ -1,2 +1,2 @@
 # qr-sign-in-system
-QR签到系统
+动态二维码签到系统

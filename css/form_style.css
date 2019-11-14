@@ -1,0 +1,51 @@
+body{
+    color: #01ADC7;
+}
+
+.form_header {
+    color: #FFF;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    -moz-box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+    -webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+    box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+    background: linear-gradient(#00a5ed, #01ADC7); /* 标准的语法 */
+}
+
+.form-inline{
+    border-bottom: rgba(0,0,0,0.1) 0.1px ridge;
+}
+
+.prize_info{
+    width: 35%;
+    text-align: center;
+}
+
+.prize_counts {
+    width: 90%;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align:center;
+    margin-left: 0.6rem;
+}
+
+.btn-info {
+    margin-bottom: 1rem;
+    border-radius: 3rem;
+    -moz-box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+    -webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+    box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.prize_control {
+    background: rgba(0,0,0,0.03);
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    -moz-box-shadow:1px 1px 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow:1px 1px 1px rgba(0,0,0,0.1);
+    box-shadow:1px 1px 1px rgba(0,0,0,0.1);
+}

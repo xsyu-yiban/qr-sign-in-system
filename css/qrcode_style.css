@@ -1,0 +1,111 @@
+body{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.sign-info{
+    padding:0.5rem;
+    border-bottom: #FFFFFF 1px solid;
+    background: #00a5ed;
+    color:#ffffff;
+    font-size: 1rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.fa-qrcode {
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+    -moz-box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+    box-shadow:0px 0px 50px #00a5ed inset, 0px 0px 10px #00a5ed;
+    padding: 2rem;
+}
+
+.info_signed{
+    padding-right: 0.1rem;
+}
+
+.btn-setting{
+    text-align: center;
+    padding-left:5px;
+    padding-right: 5px;
+}
+
+.scream_btn{
+    letter-spacing: 2px;
+    line-height: 1rem;
+    padding-top: 0.3rem;
+    border-radius: 3rem;
+    -moz-box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+    box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+}
+
+.output-btn{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    line-height: 2rem;
+    padding-left:5px;
+    padding-right: 5px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+}
+
+.list_tip{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: #00a5ed 1px solid;
+    box-shadow: 0 0 5px #00a5ed;
+}
+
+.user_line{
+    padding:0.5rem 0.2rem 0.5rem 0rem;
+    box-shadow: 0 1px 1px #00a5ed;
+}
+
+.user_head{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.user_name{
+    line-height: 2.2rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sign_time {
+    font-size: 0.8rem;
+    margin-bottom: 0rem;
+    line-height: 2.3rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.reflect_url{
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+.reflect_code{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: slategrey;
+    padding-left: 2.5rem;
+}

@@ -1,0 +1,10 @@
+.success-text{
+    margin-top: 65%;
+    font-size: 2rem;
+    background: url("../images/sign_success.png");
+}
+
+.failed-text{
+    margin-top: 65%;
+    font-size: 2rem;
+}

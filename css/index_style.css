@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(to right, #ebf0f6, #98ccd3);
+    color: #FFFFFF;
+}
+
+
+
+.publish_btn {
+    margin-top: 18%;
+    margin-left: 25%;
+    margin-bottom: 1rem;
+    line-height: 19rem;
+    font-size: 1.3rem;
+    border: 0.1px rgba(0,0,0,0.0) solid;
+    border-radius: 50%;
+    text-align: center;
+    width: 10rem;
+    height: 10rem;
+    background: url("../images/publish.png") no-repeat center;
+    background-size: 50% 50%;
+}
+.publish_btn:visited{
+    width: 6rem;
+    height: 6rem;
+}
+
+.my_btn {
+    margin-top: 18%;
+    margin-left: 25%;
+    margin-bottom: 0.5rem;
+    line-height: 19rem;
+    font-size: 1.3rem;
+    border: 0.1px rgba(0,0,0,0.0) solid;
+    border-radius: 50%;
+    text-align: center;
+    width: 10rem;
+    height: 10rem;
+    background: url("../images/my-publish.png") no-repeat center;
+    background-size: 60% 60%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
